@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.top-nav {
+    background: #683091;
+    padding: 10px 0;
+    color: #fff;
+}
+img.gov_img {
+    width: 110px;
+    max-width: 100%;
+}
+.school_info{
+    font-weight: 400;
+    margin: 5px;
+}
+.school_main{
+    padding: 20px 0;
+}
+.school_details {
+    background: #ffffffb8;
+    padding: 20px 0;
+}
+.side_bar
+{
+    background-color: #ffffffbf;
+}
+.card-title {
+    background: #683091;
+    padding: 15px 0 1px 0;
+    color: #fff;
+}
+.card-title h5{
+    font-size: 16px;
+}
+.card-body {
+    background: #fff;
+    height: 595px;
+    padding-top: 10px;
+}
+.card-body ol li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+.card-body ol li a{
+    font-size: 18px;
+    color: #333;
+    transition: .3s;
+}
+.card-body ol li a:hover{
+    color: #683091;
+}
+/* ------ notice ----  */
+.notce-content li a {
+    color: #333;
+    transition: .3s;
+}
+.notce-content li a:hover {
+    color: #683091;
+}
+/* ---------- school about --------  */
+.about_content {
+    padding: 50px;
+    color: #fff;
+}
+.about_content h2 {
+    border-bottom: 2px solid #683091;
+    padding: 5px;
+}
+.about-wrapp
+{
+    margin-bottom: 20px;
+}
+.content {
+    background: #fff;
+    padding: 30px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.dataTable.table-responsive {
+    background: #fff;
+}
+a.view {
+    position: fixed;
+    top: 100px;
+    right: -43px;
+    background: red;
+    padding: 10px 10px 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px 0 0 40px;
+    z-index: 5;
+    transition: 0.5s;
+    font-size: 15px;
+}
+a.buy {
+    top: 150px !important;
+    background: green !important;
+}
+a.view:hover {
+    right: 0;
+}
+.col-md-2.col-sm-4.col-6 {
+    margin-top: 10px;
+}
+.photo {
+    border: 2px solid;
+}
